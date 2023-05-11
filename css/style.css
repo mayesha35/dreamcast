@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol,li{
+    list-style: none;
+}
+.banner-img{
+ height: 100vh;
+}
+.banner{
+    position: relative;
+    width: 100%;
+}
+.navbar{
+    position: absolute;
+    
+    width: 100%;
+    z-index: 99999;
+}
+.menu li{
+    width:10%;
+}
