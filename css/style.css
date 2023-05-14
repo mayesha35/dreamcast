@@ -42,7 +42,7 @@ ul,ol,li{
    color: #4867AA;
 }
 .social-icons li a{
-
+  margin: 0px 15px;
   font-size: 16px;
 }
 .banner-content{
@@ -108,8 +108,4 @@ p{
 }
 .custom-toggler-icon i{
     color: white;
-}
-.navbar-nav-custom{
-    background-color: #0a0a0a;
-    width: 100%;
 }

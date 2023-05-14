@@ -1,0 +1,72 @@
+/**extra extra large device css start**/
+@media (min-width: 1400px) {
+    * {
+      word-wrap: break-word;
+    }
+  
+  }
+  
+  /**extra extra large device css end**/
+  /**extra large device css start**/
+  @media (min-width: 1200px) and (max-width: 1399.99px) {
+    * {
+      word-wrap: break-word;
+    }
+    
+  }
+  /**extra large device css end**/
+  /**large device css start**/
+  @media (min-width: 992px) and (max-width: 1199.99px) {
+    * {
+      word-wrap: break-word;
+    }
+   
+   
+  }
+  /**large device css end**/
+  
+  /**medium device css start**/
+  @media (min-width: 768px) and (max-width: 991.99px) {
+    * {
+      word-wrap: break-word;
+    }
+    .custom-navbar-collapse{
+        background-color: #0a0a0a;
+    }
+    .being-dreamcast, .we-do, .our-team {
+        padding: 5px 0;
+    }
+  
+  }
+  /**medium device css end**/
+  /***small device css start**/
+  @media (min-width: 576px) and (max-width: 767.99px) {
+    * {
+      word-wrap: break-word;
+    }
+    .custom-navbar-collapse{
+        background-color: #0a0a0a;
+    }
+    
+    .being-dreamcast, .we-do, .our-team {
+        padding: 0px 0;
+    }
+  }
+  
+  /***small device css end**/
+  
+  /*****extra small device css start***/
+  @media (max-width: 575.99px) {
+    * {
+      word-wrap: break-word;
+    }
+    .custom-navbar-collapse{
+        background-color: #0a0a0a;
+    }
+    .being-dreamcast, .we-do, .our-team {
+        padding: 0px 0;
+    }
+ 
+  }
+  /*****extra small device css end***/
+  
