@@ -8,58 +8,82 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>document</title>
   </head>
   <body>
     <header>
         <div class="banner">
-            
-            <div class="custom-navbar">
-               <div class="container">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-2">
-                        <div class="logo">
-                            <h2 class="primary-color">DREAMCAST</h2>
+                <nav class="custom-navbar navbar navbar-expand-lg">
+                    <div class="container">
+                        <div class="col-1 logo">
+                            <a class="navbar-brand" href="#">
+                                <img src="images/logo.png" alt="" class="d-block img-fluid">
+                            </a>
                         </div>
+                     
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon custom-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                      </button>
+                      <div class="collapse navbar-collapse custom-navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav navbar-nav-custom">
+                            <ul class="navbar-nav m-auto mb-2 mb-lg-0 menu">
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="#">FEATURS SERVICES</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="#">WORK</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="#">CLIENT</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="#">TEAM</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="#">CONTACT US</a>
+                                </li>
+                                
+                              </ul>
+                              <ul class="social-icons m-auto navbar-nav mb-2 mb-lg-0">
+                                  <li class="facebook"><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                                  <li class="twitter"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                  <li class="linked-in"><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                               </ul>
+                        </ul>
+                       
+                      </div>
                     </div>
-                    <div class="col-6">
-                         <ul class="menu d-flex justify-content-between">
-                            <li><a href="">HOME</a></li>
-                            <li><a href="">ABOUT</a></li>
-                            <li><a href="">FEATURS SERVICES</a></li>
-                            <li><a href="">WORK</a></li>
-                            <li><a href="">CLIENT</a></li>
-                            <li><a href="">TEAM</a></li>
-                            <li><a href="">CONTACT US</a></li>
-                         </ul>
-                    </div>
-                    <div class="col-3">
-                        <ul class="social-icons d-flex justify-content-start">
-                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-                            <li class="linked-in"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
-                         </ul>
-                    </div>
-                  
-                </div>
-            </div>
-            </div>
+                  </nav>
             <div class="banner-content">
                 <h2>WE EXIST TO</h2>
                 <h1>UNDERPIN</h1>
                 <h2>YOUR ACTIVITIES</h2>
             </div>
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                
                 <div class="carousel-inner banner-container">
+                   
                   <div class="carousel-item active banner-item">
-                    <img src="images/banner1.jpg" class="d-block w-100 banner-img" alt="...">
+                    <div class="overlay"></div>
+                    <img src="images/banner1.jpg" class="d-block w-100 banner-img img-fluid" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/banner1.jpg" class="d-block w-100 banner-img" alt="...">
+                    <div class="overlay"></div>
+                    <img src="images/banner2.jpg" class="d-block w-100 banner-img img-fluid" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/banner1.jpg" class="d-block w-100 banner-img" alt="...">
+                    <div class="overlay"></div>
+                    <img src="images/banner3.jpg" class="d-block w-100 banner-img img-fluid" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -73,13 +97,13 @@
               </div>
         </div>
     </header>
-    <section>
+    <section class="being-dreamcast">
        <div class="container">
         <div class="row">
             <div class="col-12 py-5">
                 <div class="heading text-center">
-                    <h2 class="text-center primary-color">BEING DREAMCAST</h2>
-                    <h6>- WE BELIEVE IN POSITIVITY -</h6>
+                    <h2 class="title text-center primary-color">BEING DREAMCAST</h2>
+                    <h6 class="title-tag">- WE BELIEVE IN POSITIVITY -</h6>
                 </div>
                 <div class="content">
                    <p>
@@ -100,16 +124,16 @@
         </div>
        </div>
     </section>
-    <section>
+    <section class="we-do">
         <div class="container">
-         <div class="row py-5">
+         <div class="row py-5 align-items-center justify-content-between">
              <div class="col-6">
-                <h2 class="primary-color">
+                <h2 class="title primary-color mb-4">
                     What We Do
                 </h2>
                 <div class="content">
-                    <div class="content-sec">
-                     <h5 class="primary-color">BRAND BUILDING:</h5>
+                    <div class="content-sec my-4">
+                     <h5 class="content-title primary-color mb-2">BRAND BUILDING:</h5>
                      <p>
                         There are two types of businesses that exists on this planet: a brand 
                         and a commodity. People pay for the brand and bargain for the 
@@ -117,8 +141,8 @@
                          to be in
                      </p>
                     </div>
-                    <div class="content-sec">
-                        <h5 class="primary-color">BRAND BUILDING:</h5>
+                    <div class="content-sec my-4">
+                        <h5 class="content-title primary-color mb-2">BRAND BUILDING:</h5>
                         <p>
                            There are two types of businesses that exists on this planet: a brand 
                            and a commodity. People pay for the brand and bargain for the 
@@ -126,8 +150,8 @@
                             to be in
                         </p>
                        </div>
-                       <div class="content-sec">
-                        <h5 class="primary-color">BRAND BUILDING:</h5>
+                       <div class="content-sec my-4">
+                        <h5 class="content-title primary-color mb-2">BRAND BUILDING:</h5>
                         <p>
                            There are two types of businesses that exists on this planet: a brand 
                            and a commodity. People pay for the brand and bargain for the 
@@ -135,8 +159,8 @@
                             to be in
                         </p>
                        </div>
-                       <div class="content-sec">
-                        <h5 class="primary-color">BRAND BUILDING:</h5>
+                       <div class="content-sec my-4">
+                        <h5 class="content-title primary-color mb-2">BRAND BUILDING:</h5>
                         <p>
                            There are two types of businesses that exists on this planet: a brand 
                            and a commodity. People pay for the brand and bargain for the 
@@ -144,8 +168,8 @@
                             to be in
                         </p>
                        </div>
-                       <div class="content-sec">
-                        <h5 class="primary-color">BRAND BUILDING:</h5>
+                       <div class="content-sec my-4">
+                        <h5 class="content-title primary-color mb-2">BRAND BUILDING:</h5>
                         <p>
                            There are two types of businesses that exists on this planet: a brand 
                            and a commodity. People pay for the brand and bargain for the 
@@ -156,33 +180,35 @@
                 </div>
              </div>
              <div class="col-6">
-
+                <div class="img-container">
+                    <img src="images/illustration.png" alt="" class="d-block w-100 img-fluid">
+                </div>
              </div>
              </div>
          </div>
         </div>
      </section>
-     <section>
+     <section class="our-team">
         <div class="container">
             <div class="row py-5">
                 <div class="col-12">
                     <div class="heading text-center">
-                        <h2 class="primary-color">MEET OUR TEAM</h2>
-                        <h6>-WE ARE CREATIVE-</h6>
+                        <h2 class="title primary-color">MEET OUR TEAM</h2>
+                        <h6 class="title-tag">-WE ARE CREATIVE-</h6>
                     </div>
                     <div class="gallary py-5">
-                        <div class="row justify-content-center">
+                        <div class="row justify-content-center align-items-stretch">
                             <div class="col-3">
-                                <img src="images/img1.PNG" alt="" class="d-block w-100 h-100 img-fluid">
+                                <img src="images/img1.PNG" alt="" class="d-block w-100 img-fluid">
                             </div>
                             <div class="col-3">
-                                <img src="images/img2.PNG" alt="" class="d-block w-100 h-100 img-fluid">
+                                <img src="images/img2.PNG" alt="" class="d-block w-100 img-fluid">
                             </div>
                             <div class="col-3">
-                                <img src="images/img3.PNG" alt="" class="d-block w-100 h-100 img-fluid">
+                                <img src="images/img3.PNG" alt="" class="d-block w-100 img-fluid">
                             </div>
                             <div class="col-3">
-                                <img src="images/img4.PNG" alt="" class="d-block w-100 h-100 img-fluid">
+                                <img src="images/img4.PNG" alt="" class="d-block w-100 img-fluid">
                             </div>
                         </div>
                     </div>

@@ -17,29 +17,40 @@ ul,ol,li{
 }
 .custom-navbar{
     position: absolute;
-    padding: 20px 0;
+    padding: 10px 0;
     width: 100%;
-    z-index: 99999;
+    z-index: 999;
 }
 .menu li a{
-    width:12%;
+    margin: 0 20px;
     color: white;
-    font-weight: 400;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+   
 }
 .linked-in a{
-    background-color: white;
-    padding: 5px;
+    padding: 1px 4px;
+    color: white;
+    background-color: #0077B5;
+    border-radius: 2px;
+}
+.twitter a{
+    color:#1DA1F2;
+}
+.facebook a{
+   color: #4867AA;
 }
 .social-icons li a{
-  margin: 0px 10px;
-  font-size: 20px;
+
+  font-size: 16px;
 }
 .banner-content{
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 99999;
+    z-index: 99;
     color: white;
 }
 p{
@@ -47,5 +58,58 @@ p{
 }
 
 .primary-color{
-    color:#2E814F;
+    color:#21632d;
+}
+.font-fam{
+    font-family: 'Roboto', sans-serif;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9;
+}
+.being-dreamcast,.we-do,.our-team{
+    padding:40px 0;
+}
+.title{
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.title-tag{
+    margin: 10px 0 40px;
+    color: #626161;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.content p,.content-sec p{
+    color:#313131;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.content-sec p{
+    font-size: 14px;
+    line-height:24px
+}
+.we-do .title{
+    font-weight: 700;
+}
+.gallary img{
+   height: 100%;
+}
+.content-title{
+    font-size: 20px;
+}
+.custom-toggler-icon i{
+    color: white;
+}
+.navbar-nav-custom{
+    background-color: #0a0a0a;
+    width: 100%;
 }
