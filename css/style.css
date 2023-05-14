@@ -109,3 +109,6 @@ p{
 .custom-toggler-icon i{
     color: white;
 }
+.nav-link:hover{
+    color: #0C7634!important;
+}
