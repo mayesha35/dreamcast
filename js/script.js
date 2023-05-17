@@ -9,4 +9,14 @@ window.addEventListener("scroll",()=>{
     darkLogo.classList.toggle("ds-block",window.scrollY > 0);
     whiteLogo.classList.toggle("ds-none",window.scrollY > 0);
 
-})
+});
+
+
+
+var coverflow=$("#coverflow").flipster();
+var carousel=$("#carousel").flipster({
+    style:'carousel',
+    spacing:-0.5,
+    nav:true,
+    button:true,
+});
