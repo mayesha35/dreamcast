@@ -152,7 +152,7 @@ p{
     display: none!important;
 }
 .flip-items li img{
-    width: 500px;
+    width: 600px;
 }
 .line{
     height:2px;
@@ -196,6 +196,11 @@ p{
     padding: 5px 30px;
     font-size: 22px;
 }
+.we-do{
+    position: relative;
+}
 .we-do .img-container{
-    margin-right:-111px;
+    position: absolute;
+    right: 0;
+    top: 10%;
 }
