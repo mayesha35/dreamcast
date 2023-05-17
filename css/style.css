@@ -71,7 +71,7 @@ p{
     z-index: 9;
 }
 .being-dreamcast,.we-do,.our-team{
-    padding:40px 0;
+    padding:30px 0;
 }
 .title{
     margin: 20px 0;
@@ -152,7 +152,7 @@ p{
     display: none!important;
 }
 .flip-items li img{
-    width: 600px;
+    width: 500px;
 }
 .line{
     height:2px;
@@ -202,5 +202,9 @@ p{
 .we-do .img-container{
     position: absolute;
     right: 0;
-    top: 10%;
+    bottom:60px;
+    width: 40%;
+}
+.img-container img{
+  width: 100%;
 }
