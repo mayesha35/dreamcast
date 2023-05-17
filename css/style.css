@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 a{
     text-decoration: none;
@@ -165,7 +166,7 @@ p{
     position: relative;
 }
 .c-overlay{
-    background-color: #87838396;
+    background-color: #54545496;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -196,4 +197,6 @@ p{
     padding: 5px 30px;
     font-size: 22px;
 }
-
+.we-do .img-container{
+    margin-right:-111px;
+}
