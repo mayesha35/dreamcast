@@ -23,9 +23,9 @@ ul,ol,li{
 .menu li a{
     margin: 0 20px;
     color: white;
-    font-weight: 400;
+    font-weight: 500;
     font-family: 'Roboto', sans-serif;
-    font-size:15px; 
+    font-size:15px!important; 
 }
 .linked-in a{
     padding: 1px 4px;
@@ -108,8 +108,9 @@ p{
     color: white;
 }
 .nav-link:hover{
-    color: #0c7634!important;
+    color: #218721!important;
 }
+
 .banner-heading span{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -124,7 +125,7 @@ p{
 }
 .banner-heading span:nth-child(2){
     font-weight: 700;
-    font-size: 95px;
+    font-size: 90px;
 }
 .banner-heading span:nth-child(3){
     font-weight: 500;
@@ -187,7 +188,7 @@ p{
     background-color: white;
     width:200px;
     height: 2px;
-    margin:20px 0;
+    margin:20px auto;
 }
 .c-btn{
     background-color: transparent;
@@ -207,4 +208,10 @@ p{
 }
 .img-container img{
   width: 100%;
+}
+.nav-link:active{
+    color: #218721!important;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #218721!important;
 }
